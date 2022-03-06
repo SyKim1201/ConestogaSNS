@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f4fbff;
+}
+
+#signup {
+  display: flex;
+  width: 100%;
+}
+
+#image-container {
+  margin: 5%;
+  width: 45%;
+}
+
+#signup-input {
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
+#login-image {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: rgb(61, 106, 148);
+  margin-bottom: 20%;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#submit-button {
+  margin-left: 15%;
+  width: 70%;
+  color: rgb(61, 106, 148);
+}
+
+p {
+  text-align: center;
+}
+
+.input-txt {
+  width: 100%;
+}

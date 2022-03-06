@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f4fbff;
+}
+
+header {
+  width: 100%;
+  display: flex;
+
+  padding: 1em;
+  border-bottom: 1px solid dimgray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+
+#header-info {
+  display: block;
+}
+
+h3,
+h4,
+p {
+  margin-bottom: 0;
+}
+
+#handle {
+  font-size: 1.1em;
+}
+
+#profile {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  margin: 10px;
+  margin-right: 5%;
+}
+
+#post {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+#description {
+  margin-top: 5px;
+  color: gray;
+}
+
+#no-feed {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 5%;
+  background-color: white;
+}
+
+#no-img {
+  align-self: center;
+  width: 30%;
+  margin-left: 35%;
+}
+
+#feeds {
+  width: 80%;
+  margin-top: 15%;
+  margin-left: 20%;
+  overflow-y: auto;
+  height: 100%;
+  background-color: white;
+}
+
+#side-nav {
+  position: fixed;
+  width: 20%;
+  border-top: 10%;
+}
+
+.menu {
+  padding-top: 5%;
+}
+.menu h4 {
+  text-align: center;
+}
+.material-icons {
+  font-size: 48px;
+  margin-left: 40%;
+}
+
+.feed {
+  border: 1px solid dimgray;
+  padding: 10px;
+  margin-right: 10%;
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 3%;
+}
+
+#profile-info {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+#profile-info img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+#post-handle {
+  font-size: 1.1em;
+}
+
+#profile-id {
+  margin-left: 5%;
+}
+
+#profile-id h3,
+#profile-id h4,
+.feed p,
+#post-icons {
+  background-color: white;
+}
+
+#post-icons .material-icons {
+  font-size: 32px;
+  margin-top: 3%;
+  margin-left: 30%;
+  background-color: white;
+}
+
+#side-link {
+  color: black;
+  text-decoration: none;
+}
+
+#side-link:hover {
+  text-decoration: none;
+  opacity: 70%;
+}
+
+#create-post {
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -250px;
+  background-color: transparent;
+}
+
+#post-form {
+  display: flex;
+  align-items: center;
+}
+
+#post-para {
+  width: 350px;
+  height: 200px;
+  margin: 10px;
+}
